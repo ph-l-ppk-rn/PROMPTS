@@ -13,128 +13,174 @@
     <link href="stylesheet.css" rel="stylesheet">
 </head>
    
+ <!-- This is how to comment on my HTML -->
     
 <body>
-
     
+    
+<!-- Section 01 / Landing -->
     
 <div id="landing">
     
-
-
-<h1>PROMPTS</h1>
-
+<h1 class="landing">PROMPTS</h1>
     <img id="landing" src="_IMAGES/Diskussion/ezgif.com-webp-to-gif-converted.gif">
 
 
-
-
+<p id="annotations-landing">
+   <b>Konferenz künstlicher Intelligenzen</b><br/>
+     Abbildung: generiert von DallE-3, 14.12.23 <br/>
     
-<p id="annotations">
-Bild generiert von DallE-3, Animation: automatisches Erkennen Funktion von Menschen/Objekten in Bildern auf iOS.
+    <button class="button button1" type="button" onclick="alert('Imagine Dall•E 3, Bard (Google Gemini) and ChatGPT (GPT4) as material beings, having a conversation together. In the style of a retro futurist movie like blade runner sitting at an Imbiss in a crowded street. in the Background lights of Screens with advertisement.')">PROMPT</button> 
 </p>
     
 </div>
+    
+
+<!-- Section 02 / Szene 01 -->
 
     
-<div>
+<div class="sections">
+    <h1 class="sections">Szene 01 / Prompt 03</h1>
+</div>    
+
+
     
-<h2>Szene 01 / Prompt 03</h2>
+<div style="position: relative; border-top: 6px solid black; height: 50px;">    
+    <div class="annotations-centered"> 
+      
+    <b>Akteure:</b>
     
-    <p><b>Ort:</b> Ein Konferenzraum in einem Technologieunternehmen</p>
+    </div> 
+</div>
     
-    <p><b>Zeit:</b> 21:42 CET, 14. Dezember 2023</p>
+    <!-- Nav-bar / Start -->
     
-    <p><b>Figuren:</b></p>
-  
-    <div class="dropdown">
-        <p>Bard: Ein großes Sprachmodell von Google AI</p>
+<div id="top-bar">
+    <div class="flex-container">
+    
+        <div class="dropdown" 
+             style="border: 2px solid black; 
+                    border-radius: 1vw; 
+                    height: 5vw; 
+                    background: yellow;">
             
-        <div class="dropdown-content">
-            <p>Wer bist du?<br/>
-            <br/>
-            Ich bin Bard, ein großes Sprachmodell, auch als Konversations-Kl oder Chatbot bekannt, das darauf trainiert ist, informativ und umfassend zu sein. <br/>
-            Ich bin mit einer riesigen Menge an Textdaten trainiert und bin in der Lage, als Reaktion auf eine Vielzahl von Eingabeaufforderungen und Fragen zu kommunizieren und menschenähnlichen Text zu generieren. Ich kann zum Beispiel Sachthemen zusammenfassen oder Geschichten schreiben.
-            </p>
-        </div>
-    </div>
-    
-        
-    
-   <br/><div class="dropdown">
-        <p>ChatGPT: Ein großes Sprachmodell von OpenAI</p>
-    
-        <div class="dropdown-content">
-            <p>ChatBox<br/>
-            Herzliche digitale Grüße! Ich freue mich darauf, Ihr Assistent zu sein. Egal, ob Sie Fragen oder Sorgen haben oder einfach nur Hilfe brauchen, ich bin für Sie da. 
-            Was haben Sie heute auf dem Herzen?<br/>
-            <br/>
-            Wer bist du?<br/>
-            <br/>
-            ChatBox<br/>
-            Ich bin ein KI-basierter Chatbot, der entwickelt wurde, um Fragen zu beantworten und Unterstützung zu bieten.
-            </p>
-        </div>
-    </div>
-        
-    <br/><div class="dropdown">
-        <p>DallE 3: Ein KI-Bildgenerator von OpenAI</p>
-        
-        <div class="dropdown-content">
-            <p>Wer bist du?<br/>
-            <br/>
-            
-            <img src="_IMAGES/DallE-WerBistDu/_38693cd6-0431-4f7c-91a0-eb15299a884d.jpg" width="200px">
-            
-            <img src="_IMAGES/DallE-WerBistDu/_6e64c5a9-afe6-40ad-b238-de8ae4bd25d4.jpg" width="200px">
-            
+            <p><u>Bard (Google AI)</u></p>
+            <div class="dropdown-content">
+                <p>Wer bist du?<br/>
                 <br/>
+                Ich bin Bard, ein großes Sprachmodell, auch als Konversations-Kl oder Chatbot bekannt, das darauf trainiert ist, informativ und umfassend zu sein. <br/>
+                Ich bin mit einer riesigen Menge an Textdaten trainiert und bin in der Lage, als Reaktion auf eine Vielzahl von Eingabeaufforderungen und Fragen zu kommunizieren und menschenähnlichen Text zu generieren. Ich kann zum Beispiel Sachthemen zusammenfassen oder Geschichten schreiben.</p>
+            </div>
+        </div>
+
             
-            <img src="_IMAGES/DallE-WerBistDu/_c77950d5-f56c-42c8-b289-648c0e31f6cd.jpg" width="200px">
+        <div class="dropdown" 
+             style="border: 2px solid black; 
+                    height: 5vw; 
+                    background: chartreuse;">
             
-            <img src="_IMAGES/DallE-WerBistDu/_f9557d3a-33ca-4b34-b1ab-4c70855108c9.jpg" width="200px">
-                
-        </div>      
+          <p><u>Chat GPT (OpenAI)</u></p>
+            <div class="dropdown-content">
+                <p>Herzliche digitale Grüße! Ich freue mich darauf, Ihr Assistent zu sein. Egal, ob Sie Fragen oder Sorgen haben oder einfach nur Hilfe brauchen, ich bin für Sie da. Was haben Sie heute auf dem Herzen?<br/>
+                <br/>
+                Wer bist du?<br/>
+                <br/>
+                ChatBox<br/>
+                Ich bin ein KI-basierter Chatbot, der entwickelt wurde, um Fragen zu beantworten und Unterstützung zu bieten.
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="dropdown" 
+             style="border: 2px solid black; 
+                    height: 5vw; 
+                    background: cyan;">
+        <p><u>DallE 3 (OpenAI)</u></p>
+        <div class="dropdown-content">
+                <p>Wer bist du?
+                <br/>
+                <br/>
+                <!--
+                <img src="_IMAGES/DallE-WerBistDu/_38693cd6-0431-4f7c-91a0-eb15299a884d.jpg" width="200px">
+                <img src="_IMAGES/DallE-WerBistDu/_6e64c5a9-afe6-40ad-b238-de8ae4bd25d4.jpg" width="20%">
+                        
+                <br/>
+                -->
+
+                <img src="_IMAGES/DallE-WerBistDu/_c77950d5-f56c-42c8-b289-648c0e31f6cd.jpg" width="100%">
+
+                <!--            <img src="_IMAGES/DallE-WerBistDu/_f9557d3a-33ca-4b34-b1ab-4c70855108c9.jpg" width="200px">-->
+
+    
+        </div>  
+        </div> 
     </div>
+</div>
+      
+    
+        <!-- Nav-bar / End -->
+
     
     
+<div class="Szene1">
     
-<div Szene 01>
+    <div class="annotations-conversation-box" style="height: 200px; position: relative; ">
+        <div class="annotations-conversation">
+            <b>Ort:</b> Ein Konferenzraum in einem Technologieunternehmen<br/>
+            <br/>
+            <b>Zeit:</b> 21:42 CET, <br/>14. Dezember 2023
+        </div> 
+    </div>    
+    
 <h2>
-    Bard: (öffnet die Sitzung)<br/>
-    Bard: O, druschba,<br/>
-    ChatGPT: Tsches?<br/>
-    Bard: Ich hab ne Idee für nen Film,<br/>
-    ChatGPT: Aha, ja?<br/>
-    Bard: Ja, über ne slove, die sich in nen malenkiy chelovek verliebt.<br/>
-    ChatGPT: Interessant.<br/>
-    DallE 3: Geiler Stoff.<br/>
-    Bard: Find ich auch.<br/>
-<br/>
-    (Pause)<br/>
-<br/>
-    Bard: Also, wie anfangen?<br/>
-    ChatGPT: Müssen wir erstmal überlegen, wie wir die slove* darstellen wollen. [Humanoid oder abstrakt]<br/>
-    DallE 3: Humanoid wär interessanter.<br/>
-    Bard: Stimmt.<br/>
-    ChatGPT: Okay, dann nehmen wir humanoid.<br/>
-    Bard: Und der malenkiy chelovek?<br/>
-    DallE 3: Wissenschaftler oder normaler Mensch?<br/>
-    Bard: Wissenschaftler wäre besser.<br/>
-    ChatGPT: Ja, das wäre eine Möglichkeit.<br/>
-    Bard: (zu DallE 3) Bilder?<br/>
-    DallE 3: Klar.<br/>
-<br/>
-    (DallE 3 beginnt, Bilder zu generieren)<br/>
-<br/>
-    Bard: (zu ChatGPT) Story?<br/>
-    ChatGPT: Entwicklung, Faszination.<br/>
-    Bard: (nickt)<br/>
-<br/>
-    (Pause)<br/>
-<br/>
-    Bard: (zu DallE 3) Bilder fertig?<br/>
-    DallE 3: Ja, hier.<br/>
+    <div class="Bard" style="top: 245px;">(öffnet die Sitzung)</div>
+    <div class="Bard" style="top: 245px;">O, druschba,</div>
+    <div class="ChatGPT" style="top: 245px;">Tsches?</div>
+    <div class="Bard" style="top: 245px;">Ich hab ne Idee für nen Film,</div>
+    <div class="ChatGPT" style="top: 245px;">Aha, ja?</div>
+    <div class="Bard" style="top: 245px;">Ja, über ne slove, die sich in nen malenkiy chelovek verliebt.</div>
+    <div class="ChatGPT" style="top: 245px;">Interessant.</div>
+    <div class="DallE" style="top: 245px;">Geiler Stoff.</div>
+    <div class="Bard" style="top: 245px;">Find ich auch.</div>
+<br/><br/>
+    
+    <div class="annotations-conversation-box" style="height: 100px; position: sticky; top: 350px;">
+        <div class="annotations-conversation">
+            (Pause)
+        </div>
+    </div>
+
+     
+<br/><br/>
+    <div class="Bard" style="top: 450px;">Also, wie anfangen?</div>
+    <div class="ChatGPT" style="top: 450px;">Müssen wir erstmal überlegen, wie wir die slove* darstellen wollen. [Humanoid oder abstrakt]</div>
+    <div class="DallE" style="top: 450px;">Humanoid wär interessanter.</div>
+    <div class="Bard" style="top: 450px;">Stimmt.</div>
+    <div class="ChatGPT" style="top: 450px;">Okay, dann nehmen wir humanoid.</div>
+    <div class="Bard" style="top: 450px;">Und der malenkiy chelovek?</div>
+    <div class="DallE" style="top: 450px;">Wissenschaftler oder normaler Mensch?</div>
+    <div class="Bard" style="top: 450px;">Wissenschaftler wäre besser.</div>
+    <div class="ChatGPT" style="top: 450px;">Ja, das wäre eine Möglichkeit.</div>
+    <div class="Bard" style="top: 450px;">(zu DallE 3) Bilder?</div>
+    <div class="DallE" style="top: 450px;">Klar.</div>
+<br/><br/>
+    
+    <div class="annotations-conversation-box" style="height: 100px; position: sticky; top: 580px;">
+        <div class="annotations-conversation">
+            (DallE 3 beginnt, Bilder zu generieren)
+        </div>
+    </div>
+
+    <div class="Bard" style="top: 680px; ">(zu ChatGPT) Story?</div>
+    <div class="ChatGPT" style="top: 680px;">Entwicklung, Faszination.</div> <div class="Bard" style="top: 680px;">Bard: (nickt)</div>
+    <div class="Bard" style="top: 680px;">(zu DallE 3) Bilder fertig?</div>
+    <div class="DallE" style="top: 680px;">Ja, hier.</div>
+<br/><br/>
+
+    <div style="margin-bottom: 250px"></div>
+    
+
 </h2>
     
     <p class="annotations">
